@@ -5,6 +5,12 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 
+		<PackageId>Qrtix.RepositoryPattern.EntityFrameworkCore</PackageId>
+		<Version>7.1.1</Version>
+		<PackageReleaseNotes>
+			- Update `RepositoryPattern.Abstractions` to version 7.0.2
+		</PackageReleaseNotes>
+		
 		<LangVersion>default</LangVersion>
 		<SignAssembly>true</SignAssembly>
 		<DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
@@ -18,13 +24,7 @@
 		<RepositoryUrl>https://github.com/carlosjortiz/RepositoryPattern</RepositoryUrl>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Title>RepositoryPattern.EntityFrameworkCore</Title>
-		
-		<PackageId>Qrtix.RepositoryPattern.EntityFrameworkCore</PackageId>
-		<Version>7.1.1</Version>
-		<PackageReleaseNotes>
-			- Update `RepositoryPattern.Abstractions` to version 7.0.2
-		</PackageReleaseNotes>
-		
+		<DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryType>git</RepositoryType>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
