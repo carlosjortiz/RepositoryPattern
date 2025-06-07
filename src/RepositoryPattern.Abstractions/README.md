@@ -2,18 +2,18 @@
 
 ![NuGet Version](https://img.shields.io/nuget/v/Qrtix.RepositoryPattern.Abstractions?style=flat&logo=nuget)
 ![NuGet Downloads](https://img.shields.io/nuget/dt/Qrtix.RepositoryPattern.Abstractions?style=flat&logo=nuget)
-![GitHub Repo stars](https://img.shields.io/github/stars/Q-rtix/RepositoryPattern?style=flat&logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/carlosjortiz/RepositoryPattern?style=flat&logo=github)
 
 A library for implementing generic repositories and unit of work with Entity Framework Core.
 This implementation uses a single instance of the DbContext for all repositories to avoid concurrency issues.
 
-Consult the online [documentation](https://q-rtix.github.io/RepositoryPattern/) for more details.
+Consult the online [documentation](https://carlosjortiz.github.io/RepositoryPattern/) for more details.
 
 > [!Tip]
 > While the `Qrtix.RepositoryPattern.Abstractions` provides the necessary abstractions for implementing generic
 > repositories and unit of work, it's recommended to use one of the specialized libraries that build upon these
 > abstractions for specific data access technologies. For Entity Framework Core, consider using 
-> the `Qrtix.RepositoryPattern.EntityFrameworkCore` [library](https://q-rtix.github.io/RepositoryPattern/docs/efcore/getting-started.html), 
+> the `Qrtix.RepositoryPattern.EntityFrameworkCore` [library](https://carlosjortiz.github.io/RepositoryPattern/docs/efcore/getting-started.html), 
 > which enhances compatibility and simplifies integration with
 > EF Core features.
 
@@ -168,4 +168,4 @@ data access technologies.
 For Entity Framework Core, consider using the `RepositoryPattern.EntityFrameworkCore` library, which enhances
 compatibility and simplifies integration with EF Core features. For more information consult
 the [Readme file](../RepositoryPattern.EntityFrameworkCore/README.md) or
-the [online documentation](https://q-rtix.github.io/RepositoryPattern/docs/efcore/introduction.html).
+the [online documentation](https://carlosjortiz.github.io/RepositoryPattern/docs/efcore/introduction.html).

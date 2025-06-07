@@ -15,7 +15,7 @@
 			library, you can decouple your data access logic from your business logic, resulting in a more maintainable
 			and testable codebase.
 		</Description>
-		<RepositoryUrl>https://github.com/Q-rtix/RepositoryPattern</RepositoryUrl>
+		<RepositoryUrl>https://github.com/carlosjortiz/RepositoryPattern</RepositoryUrl>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Title>RepositoryPattern.Abstractions</Title>
 		
@@ -32,7 +32,7 @@
 			RepositoryPattern, Repository, Pattern
 		</PackageTags>
 		<Copyright>Copyright (c) Carlos J. Ortiz. All rights reserved.</Copyright>
-		<PackageProjectUrl>https://github.com/users/Q-rtix/projects/1</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/users/carlosjortiz/projects/1</PackageProjectUrl>
 	</PropertyGroup>
 
 	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

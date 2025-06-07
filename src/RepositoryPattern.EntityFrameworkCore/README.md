@@ -2,12 +2,12 @@
 
 ![NuGet Version](https://img.shields.io/nuget/v/Qrtix.RepositoryPattern.EntityFrameworkCore?style=flat&logo=nuget)
 ![NuGet Downloads](https://img.shields.io/nuget/dt/Qrtix.RepositoryPattern.EntityFrameworkCore?style=flat&logo=nuget)
-![GitHub Repo stars](https://img.shields.io/github/stars/Q-rtix/RepositoryPattern?style=flat&logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/carlosjortiz/RepositoryPattern?style=flat&logo=github)
 
 A library for implementing generic repositories and unit of work with Entity Framework Core.
 This implementation uses a single instance of the DbContext for all repositories to avoid concurrency issues.
 
-Consult the online [documentation](https://q-rtix.github.io/RepositoryPattern/) for more details.
+Consult the online [documentation](https://carlosjortiz.github.io/RepositoryPattern/) for more details.
 
 ## Table of Contents
 
