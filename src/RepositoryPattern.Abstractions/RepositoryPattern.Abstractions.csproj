@@ -6,9 +6,9 @@
 		<Nullable>enable</Nullable>
 
 		<PackageId>Qrtix.RepositoryPattern.Abstractions</PackageId>
-		<Version>7.0.2</Version>
-		<PackageReleaseNotes>f
-			- Fix bug in the `UnitOfWork` implementation checking.
+		<Version>7.0.3</Version>
+		<PackageReleaseNotes>
+			- Fix readme.
 		</PackageReleaseNotes>
 		
 		<LangVersion>default</LangVersion>
