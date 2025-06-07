@@ -2,7 +2,7 @@
 
 ![NuGet Version](https://img.shields.io/nuget/v/Qrtix.RepositoryPattern.Abstractions?style=flat&logo=nuget)
 ![NuGet Downloads](https://img.shields.io/nuget/dt/Qrtix.RepositoryPattern.Abstractions?style=flat&logo=nuget)
-![GitHub Repo stars](https://img.shields.io/github/stars/Q-rtix/RepositoryPattern?style=flat&logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/carlosjortiz/RepositoryPattern?style=flat&logo=github)
 
 Welcome to the documentation for Repository Pattern Abstractions, a versatile library designed to simplify the
 implementation of generic repositories and unit of work patterns with Entity Framework Core. This documentation serves

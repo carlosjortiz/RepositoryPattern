@@ -5,6 +5,12 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 
+		<PackageId>Qrtix.RepositoryPattern.EntityFrameworkCore</PackageId>
+		<Version>7.1.1</Version>
+		<PackageReleaseNotes>
+			- Update `RepositoryPattern.Abstractions` to version 7.0.2
+		</PackageReleaseNotes>
+		
 		<LangVersion>default</LangVersion>
 		<SignAssembly>true</SignAssembly>
 		<DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
@@ -15,16 +21,10 @@
 			library, you can decouple your data access logic from your business logic, resulting in a more maintainable
 			and testable codebase.
 		</Description>
-		<RepositoryUrl>https://github.com/Q-rtix/RepositoryPattern</RepositoryUrl>
+		<RepositoryUrl>https://github.com/carlosjortiz/RepositoryPattern</RepositoryUrl>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Title>RepositoryPattern.EntityFrameworkCore</Title>
-		
-		<PackageId>Qrtix.RepositoryPattern.EntityFrameworkCore</PackageId>
-		<Version>7.1.1</Version>
-		<PackageReleaseNotes>
-			- Update `RepositoryPattern.Abstractions` to version 7.0.2
-		</PackageReleaseNotes>
-		
+		<DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryType>git</RepositoryType>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -33,7 +33,7 @@
 			RepositoryPattern, RepositoryPattern.Abstractions
 		</PackageTags>
 		<Copyright>Copyright (c) Carlos J. Ortiz. All rights reserved.</Copyright>
-		<PackageProjectUrl>https://q-rtix.github.io/RepositoryPattern/</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/users/carlosjortiz/projects/1</PackageProjectUrl>
 	</PropertyGroup>
 
 	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

@@ -5,6 +5,12 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 
+		<PackageId>Qrtix.RepositoryPattern.Abstractions</PackageId>
+		<Version>7.0.2</Version>
+		<PackageReleaseNotes>f
+			- Fix bug in the `UnitOfWork` implementation checking.
+		</PackageReleaseNotes>
+		
 		<LangVersion>default</LangVersion>
 		<SignAssembly>true</SignAssembly>
 		<DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
@@ -15,16 +21,10 @@
 			library, you can decouple your data access logic from your business logic, resulting in a more maintainable
 			and testable codebase.
 		</Description>
-		<RepositoryUrl>https://github.com/Q-rtix/RepositoryPattern</RepositoryUrl>
+		<RepositoryUrl>https://github.com/carlosjortiz/RepositoryPattern</RepositoryUrl>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Title>RepositoryPattern.Abstractions</Title>
-		
-		<PackageId>Qrtix.RepositoryPattern.Abstractions</PackageId>
-		<Version>7.0.2</Version>
-		<PackageReleaseNotes>f
-			- Fix bug in the `UnitOfWork` implementation checking.
-		</PackageReleaseNotes>
-		
+		<DisableImplicitNuGetFallbackFolder>true</DisableImplicitNuGetFallbackFolder>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<RepositoryType>git</RepositoryType>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -32,7 +32,7 @@
 			RepositoryPattern, Repository, Pattern
 		</PackageTags>
 		<Copyright>Copyright (c) Carlos J. Ortiz. All rights reserved.</Copyright>
-		<PackageProjectUrl>https://q-rtix.github.io/RepositoryPattern/</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/users/carlosjortiz/projects/1</PackageProjectUrl>
 	</PropertyGroup>
 
 	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
