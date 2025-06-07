@@ -6,9 +6,9 @@
 		<Nullable>enable</Nullable>
 
 		<PackageId>Qrtix.RepositoryPattern.EntityFrameworkCore</PackageId>
-		<Version>7.1.1</Version>
+		<Version>7.1.2</Version>
 		<PackageReleaseNotes>
-			- Update `RepositoryPattern.Abstractions` to version 7.0.2
+			- Update `RepositoryPattern.Abstractions` to version 7.0.3
 		</PackageReleaseNotes>
 		
 		<LangVersion>default</LangVersion>
@@ -56,7 +56,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1"/>
-		<PackageReference Include="Qrtix.RepositoryPattern.Abstractions" Version="7.0.2" />
+		<PackageReference Include="Qrtix.RepositoryPattern.Abstractions" Version="7.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
